@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce/cart </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="commerce.css">
+</head>
+<body>
+     <section id="header">
+      <a href="#"><img src="img/logo.png" alt="" class="logo"></a>  
+
+      <div>
+        <ul id="navbar">
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html" >Blog</a></li>
+            <li><a href="about.html" >About </a></li>
+            <li><a href="contact.html" >contact</a></li>
+            <li id="lg-bag"> <a href="cart.html" class="active"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+          <a href="#" id="close"> <i class="fa fa-times" aria-hidden="true"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <i class="fa fa-bars" aria-hidden="true" id="bar" style="cursor: pointer;"></i>
+       
+      </div>
+     
+     </section>
+     <section id="page-header" class="about-header">
+       <h2>#cart</h2>
+       <p>Add your coupon code & SAVE UPTO 70%  </p>
+     </section>
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>REMOVE</td>
+                <td>IMAGE</td>
+                <td>PRODUCT</td>
+                <td>PRICE</td>
+                <td>QUANTITY</td>
+                <td>SUB-TOTAL</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>
+           <a href="#"> <i class="fa fa-times-circle" aria-hidden="true"></i> </a>
+        </td>
+        <td><img src="img/products/f1.jpg" alt=""></td>
+        <td>Catoon Astronaut T-shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$118.19</td>
+    </tr>
+            <tr>
+            <td>
+           <a href="#"> <i class="fa fa-times-circle" aria-hidden="true"></i> </a>
+        </td>
+        <td><img src="img/products/f2.jpg" alt=""></td>
+        <td>Catoon Astronaut T-shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$118.19</td>
+    </tr>
+            <tr>
+            <td>
+           <a href="#"> <i class="fa fa-times-circle" aria-hidden="true"></i> </a>
+        </td>
+        <td><img src="img/products/f3.jpg" alt=""></td>
+        <td>Catoon Astronaut T-shirt</td>
+        <td>$118.19</td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>$118.19</td>
+    </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="cart-add">
+    <div id="coupon">
+        <h3>Apply coupon</h3>
+        <input type="text" placeholder="Enter Your Coupon"> <button class="normal">Apply</button>
+
+    </div>
+    <div id="total">
+        <h3>Cart Totals</h3>
+        <table >
+            <tr>
+                <td>Cart Subtotal </td>
+                <td>$335</td>
+            </tr>
+            <tr>
+                <td>Shipping  </td>
+                <td>Free</td>
+            </tr>
+            <thead> 
+            <tr>
+                <td>Total </td>
+                <td>$335</td>
+            </tr>
+        </thead>
+
+        </table>
+        <button class="normal">Proceed to checkout</button>
+    </div>
+
+</section>
+
+     <section id="banner4" style="margin-top: 30px;">
+        <div class="type1">
+    <h3>Sign up For Newsletter </h3>
+    <p>Get E-mail updates about our latest shop and <span>Special offers </span></p>
+        </div>
+        <div class="type2 ">
+            
+            <input type="email" placeholder="Your email addres"> 
+            <button type="submit"  class="normal"> SIGN UP </button>
+        </div>
+    </section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p> <strong>Address:</strong> 23, Dada Akapo street, Agege, Lagos, Nigeria </p>
+        <p><strong>Phone</strong> +2347087561411/ +2348103211698</p>
+        <p><strong>Hours:</strong> 7:00 - 18:00, Mon- sat </p>
+
+        <h3>Follow Us </h3>
+        <div class="follow">
+           <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+           <a href=""> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+           <a href=""> <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+           <a href=""> <i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </div>
+       
+    </div>
+    <div class="col2">
+        <h4><strong>About Us </strong></h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information </a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & condition </a>
+        <a href="#">Contact us </a>
+
+    </div>
+    <div class="col3">
+        <h4><strong>My Account</strong> </h4>
+
+    <a href="#">Sign in </a>
+    <a href="#">view cart </a>
+    <a href="#">My whitlist </a>
+    <a href="#">Track my order </a>
+    <a href="#">Help </a>
+    </div>
+    <div class="col4">
+        <h4><strong>Install App</strong></h4>
+        <p>From App store or Google Play </p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="" style="border: 1px solid black; border-radius: 6px;">
+            <img src="img/pay/play.jpg" alt="" style="border: 1px solid black; border-radius: 6px;">
+        </div>
+        <p>Second Payment Gateway </p>
+
+        <img src="img/pay/pay.png" alt="">
+    </div>
+   
+
+</footer>
+<div id="copy" style="text-align: center;">
+    <p>&copy; 2022, Davinci Ecommerce website </p>
+</div>
+    <script src="commerce.js"></script>
+</body>
+</html>
