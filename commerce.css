@@ -469,6 +469,9 @@ flex-direction: row;
     .section-p1{
         padding: 40px 40px ;
     }
+    #shops{
+    display: flex;
+}
     #navbar{
         display: flex;
         flex-direction: column;
@@ -572,6 +575,9 @@ justify-content: center;
     #header{
         padding: 10px 30px;
     } 
+    #shops{
+    display: flex;
+}
     #contact-details{
        
         flex-direction: column;
@@ -1051,4 +1057,7 @@ justify-content: center;
 #total  button{
     background-color: #088178;
     color: white;
+}
+#shops{
+    display: none;
 }
